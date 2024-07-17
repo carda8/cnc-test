@@ -1,0 +1,110 @@
+import { ICategoryList, ICouponList, ILatestNews } from "./mock-data-types";
+
+const categoryList: ICategoryList[] = [
+  { title: "인터넷가입", iconName: "icon_internet" },
+  { title: "모바일", iconName: "icon_mobile" },
+  { title: "보험", iconName: "icon_insurance" },
+  { title: "렌탈", iconName: "icon_rental" },
+  { title: "이사", iconName: "icon_move" },
+  { title: "자동차", iconName: "icon_car" },
+  { title: "음식점", iconName: "icon_food" },
+  { title: "부동산", iconName: "icon_realestate" },
+];
+
+const couponList: ICouponList[] = [
+  {
+    title: "하우스멜",
+    sort: "카페.디저트",
+    couponTitle: "소금빵 증정",
+    expiredDate: "2024년 05월 31일까지",
+    couponAmountLimit: false,
+    remainAmount: 0,
+    downloaded: true,
+    imageMain: "coupon_one",
+    imageSub: "coupon_one_sub",
+  },
+  {
+    title: "잭슨피자 광안리점",
+    sort: "피자",
+    couponTitle: "오븐스파게티 증정",
+    expiredDate: "",
+    couponAmountLimit: true,
+    remainAmount: 25,
+    downloaded: false,
+    imageMain: "coupon_two",
+    imageSub: "coupon_two_sub",
+  },
+  {
+    title: "이가요리족보야 경성대본점",
+    sort: "족발·보쌈",
+    couponTitle: "탄산음료 1병 무료",
+    expiredDate: "2024년 05월 31일까지",
+    couponAmountLimit: false,
+    remainAmount: 0,
+    downloaded: true,
+    imageMain: "coupon_one",
+    imageSub: "coupon_one_sub",
+  },
+  {
+    title: "하우스멜",
+    sort: "카페.디저트",
+    couponTitle: "소금빵 증정",
+    expiredDate: "2024년 05월 31일까지",
+    couponAmountLimit: false,
+    remainAmount: 0,
+    downloaded: true,
+    imageMain: "coupon_one",
+    imageSub: "coupon_one_sub",
+  },
+  {
+    title: "잭슨피자 광안리점",
+    sort: "피자",
+    couponTitle: "오븐스파게티 증정",
+    expiredDate: "",
+    couponAmountLimit: true,
+    remainAmount: 25,
+    downloaded: false,
+    imageMain: "coupon_two",
+    imageSub: "coupon_two_sub",
+  },
+  {
+    title: "이가요리족보야 경성대본점",
+    sort: "족발·보쌈",
+    couponTitle: "탄산음료 1병 무료",
+    expiredDate: "2024년 05월 31일까지",
+    couponAmountLimit: false,
+    remainAmount: 0,
+    downloaded: true,
+    imageMain: "coupon_one",
+    imageSub: "coupon_one_sub",
+  },
+];
+
+const latestNews: ILatestNews[] = [
+  {
+    title: "하우스멜",
+    sort: "카페.디저트",
+    subTitle: "하우스멜 커스터드 소금빵 4종",
+    disc: "커스터드,초코,고구마에 이어 딸기도 출시했습니다!! 많은 관심 부탁드립니다❤️",
+    updateTime: "1시간 전",
+    image: "store_one",
+  },
+  {
+    title: "오만원더통신",
+    sort: "인터넷가입",
+    subTitle: "공식홈페이지 개설",
+    disc: "드디어 저희 오만원더통신에서 공식 홈페이지가 개설되었습니다",
+    updateTime: "3시간 전",
+    image: "store_two",
+  },
+  {
+    title: "오만원더통신",
+    sort: "인터넷가입",
+    subTitle: "이 세가지 확인안되면 가입하지 마세요.",
+    disc: "안녕하세요😄 오늘은 날씨가 제법 쌀쌀해졌네요",
+    updateTime: "1시간 전",
+    image: "store_three",
+  },
+];
+
+export { categoryList, couponList, latestNews };

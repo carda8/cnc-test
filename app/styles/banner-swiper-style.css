@@ -1,0 +1,35 @@
+.custom {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  bottom: 0px;
+  right: 26.5px;
+  background: #303441bf;
+  color: white;
+  width: 60px;
+  height: 24px;
+  border-top-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+  font-size: 12px;
+}
+
+.custom-current {
+  margin-left: 11.5px;
+  margin-right: 3px;
+  font-weight: 700;
+}
+
+.custom-total {
+  margin-left: 3px;
+  font-weight: 400;
+}
+
+.custom-img {
+  width: 12px;
+  height: 12px;
+  margin-left: 3px;
+}
+
+.swiper-pagination {
+  bottom: 0px !important;
+}

@@ -1,0 +1,15 @@
+/* Default bullet style */
+.swiper-pagination-bullet {
+  width: "100vw";
+  width: 8px;
+  height: 8px;
+  background: #30344140;
+  opacity: 1;
+  margin: 0px 2.5px 0 2.5px !important;
+}
+
+/* Active bullet style */
+.swiper-pagination-bullet-active {
+  opacity: 1;
+  background: #303441;
+}

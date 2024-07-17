@@ -71,6 +71,7 @@ export default function CouponSwiper() {
                     width={16}
                     height={16}
                     alt=""
+                    style={{ width: 16, height: 16 }}
                   />
                   <p className="text-[#0066FF] text-xs font-medium ml-1">
                     쿠폰 받기

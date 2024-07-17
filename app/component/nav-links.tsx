@@ -38,7 +38,13 @@ export default function NavLinks() {
             } flex flex-col grow items-center justify-center bg-white`}
           >
             <div className="flex relative">
-              <Image src={`${navIcon}.svg`} width={24} height={24} alt="icon" />
+              <Image
+                src={`${navIcon}.svg`}
+                width={24}
+                height={24}
+                style={{ width: 24, height: 24 }}
+                alt="icon"
+              />
               {link.name === "채팅" && <RedDot />}
             </div>
             <p className="text-[10px] font-medium mt-[6px]">{link.name}</p>
